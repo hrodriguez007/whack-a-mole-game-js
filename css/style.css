@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+
+}
+
+h2 {
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 13px;
+}
+
+body {
+    box-sizing: border-box;
+    margin-left: 250px;
+    padding: 0;
+    
+}
+
+.grid {
+    display: flex;
+    width: 606px;
+    height: 606px;
+    flex-wrap: wrap; /*stack like a snake */
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid rgb(0, 0, 0) 1px;
+}
+
+.mole{
+    background-image: url("whack-a-mole (1).png");
+    background-size: cover;
+}
